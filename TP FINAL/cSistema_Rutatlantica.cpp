@@ -3,6 +3,7 @@
 
 cSistema_Rutatlantica::cSistema_Rutatlantica()
 {
+	//las 15 paradas en total
 	parada1 = new cParada(1, "Salta y Rivadavia", "Constitucion"); //parada[i]->getcod()==rand if == ...
 	parada2 = new cParada(2, "Plaza Italia", "Palermo");
 	parada3 = new cParada(3, "Puente Saavedra", "Puente Saavedra");
@@ -17,7 +18,9 @@ cSistema_Rutatlantica::cSistema_Rutatlantica()
 	parada12 = new cParada(12, "Panamericana y Laprida", "Panamericana y Laprida");
 	parada13 = new cParada(13, "Puente Saavedra", "Puente Saavedra");
 	parada14 = new cParada(14, "Junin y Av. Las Heras", "Recoleta");
-	parada15 = new cParada(15, "Salta y Rivadavia", "Constitucion");
+	parada15 = new cParada(15, "Salta y Rivadavia", "Constitucion") ;
+
+
 
 	
 	colectivo = new cColectivo();
